@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeFi Stokvel - My Stokvels</title>
+    <style>
+        /* Basic styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            color: #333;
+            font-size: 24px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Main content */
+        .main-content {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .main-content h2 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .main-content h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Stokvel list */
+        .stokvel-list {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .stokvel-list table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .stokvel-list th,
+        .stokvel-list td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ccc;
+        }
+
+        .stokvel-list th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .stokvel-list tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .social-media {
+            margin-bottom: 10px;
+        }
+
+        .social-media a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer p {
+            color: #fff;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>DeFi Stokvel</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="my_stokvels.html">Dashboard</a></li>
+                    <li><a href="stokvel.html">Join Stokvel</a></li>
+                    <li><a href="#">Create Stokvel</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="main-content">
+            <h2>Your Stokvels</h2>
+            <div class="stokvel-list">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Total Investment</th>
+                            <th>Current Value</th>
+                            <th>Gains</th>
+                            <th>ROI</th>
+                            <th>Time Left</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Add rows for each Stokvel with the required data -->
+                        <tr>
+                            <td>Stokvel 1</td>
+                            <td>R5,000</td>
+                            <td>R5,800</td>
+                            <td>R800</td>
+                            <td>16%</td>
+                            <td>30 days</td>
+                        </tr>
+                        <tr>
+                            <td>Stokvel 2</td>
+                            <td>R3,000</td>
+                            <td>R3,450</td>
+                            <td>R450</td>
+                            <td>15%</td>
+                            <td>45 days</td>
+                        </tr>
+                        <tr>
+                            <td>Stokvel 3</td>
+                            <td>R10,000</td>
+                            <td>R11,500</td>
+                            <td>R1,500</td>
+                            <td>15%</td>
+                            <td>60 days</td>
+                        </tr>
+                        <tr>
+                            <td>Stokvel 4</td>
+                            <td>R7,500</td>
+                            <td>R8,925</td>
+                            <td>R1,425</td>
+                            <td>19%</td>
+                            <td>40 days</td>
+                        </tr>
+                        <tr>
+                            <td>Stokvel 5</td>
+                            <td>R2,000</td>
+                            <td>R2,300</td>
+                            <td>R300</td>
+                            <td>15%</td>
+                            <td>20 days</td>
+                        </tr>
+                        <tr>
+                            <td>Stokvel 6</td>
+                            <td>R12,000</td>
+                            <td>R14,400</td>
+                            <td>R2,400</td>
+                            <td>20%</td>
+                            <td>50 days</td>
+                        </tr>
+                        <tr>
+                            <td>Stokvel 7</td>
+                            <td>R4,500</td>
+                            <td>R5,175</td>
+                            <td>R675</td>
+                            <td>15%</td>
+                            <td>35 days</td>
+                        </tr>
+                        <tr>
+                            <td>Stokvel 8</td>
+                            <td>R6,000</td>
+                            <td>R6,900</td>
+                            <td>R900</td>
+                            <td>15%</td>
+                            <td>25 days</td>
+                        </tr>
+                        <tr>
+                            <td>Stokvel 9</td>
+                            <td>R9,000</td>
+                            <td>R10,350</td>
+                            <td>R1,350</td>
+                            <td>15%</td>
+                            <td>55 days</td>
+                        </tr>
+                        <tr>
+                            <td>Stokvel 10</td>
+                            <td>R8,000</td>
+                            <td>R9,200</td>
+                            <td>R1,200</td>
+                            <td>15%</td>
+                            <td>45 days</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <footer>
+            <div class="social-media">
+                <a href="https://www.facebook.com/DeFiStokvel" target="_blank">Facebook</a> |
+                <a href="https://twitter.com/DeFiStokvel" target="_blank">Twitter</a> |
+                <a href="https://www.linkedin.com/company/DeFiStokvel" target="_blank">LinkedIn</a> |
+                <a href="https://www.instagram.com/DeFiStokvel" target="_blank">Instagram</a>
+            </div>
+            <p>&copy; 2023 DeFi Stokvel. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoTrade - Stokvel</title>
+    <style>
+        /* Basic styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            color: #333;
+            font-size: 24px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Stokvel section */
+        .stokvel {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 0;
+        }
+
+        .join-stokvel, .find-partners {
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            padding: 20px;
+            width: 48%;
+        }
+
+        .join-stokvel h2, .find-partners h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        input[type="number"], select {
+            font-size: 18px;
+            color: #333;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        input[type="submit"] {
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>CryptoTrade</h1>
+            <nav>
+                <ul>
+                    <li><a href="cryptogpt.html">Home</a></li>
+                    <li><a href="bitcoin.html">Bitcoin</a></li>
+                    <li><a href="#">Altcoins</a></li>
+                    <li><a href="stokvel.html">Stokvel</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="stokvel">
+            <div class="join-stokvel">
+                <h2>Join a Stokvel with Friends</h2>
+                <form>                    <label for="stokvel-amount">Amount (ZAR):</label>
+                    <input type="number" id="stokvel-amount" step="1" min="0" placeholder="0">
+                    <label for="stokvel-friends">Select Friends:</label>
+                    <select id="stokvel-friends" multiple>
+                        <option value="friend1">Friend 1</option>
+                        <option value="friend2">Friend 2</option>
+                        <option value="friend3">Friend 3</option>
+                    </select>
+                    <input type="submit" value="Join Sokvel">
+                </form>
+            </div>
+
+            <div class="find-partners">
+                <h2>Find Partners on the App</h2>
+                <form>
+                    <label for="partners-amount">Amount (ZAR):</label>
+                    <input type="number" id="partners-amount" step="1" min="0" placeholder="0">
+                    <label for="partners-duration">Duration:</label>
+                    <select id="partners-duration">
+                        <option value="1">1 Month</option>
+                        <option value="3">3 Months</option>
+                        <option value="6">6 Months</option>
+                        <option value="12">12 Months</option>
+                    </select>
+                    <input type="submit" value="Find Partners">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
