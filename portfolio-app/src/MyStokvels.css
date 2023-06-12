@@ -1,0 +1,113 @@
+/* Basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Main content */
+  .main-content {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .main-content h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .main-content h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Stokvel list */
+  .stokvel-list {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .stokvel-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .stokvel-list th,
+  .stokvel-list td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  .stokvel-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .stokvel-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-media {
+    margin-bottom: 10px;
+  }
+  
+  .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer p {
+    color: #fff;
+    font-size: 16px;
+  }
+  
